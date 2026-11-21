@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pavan's Wedding Invitation</title>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:ital,wght@0,500;0,700;1,400&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 30px 15px;
+            background: linear-gradient(135deg, #fff5f5 0%, #fde2e4 50%, #f8edeb 100%);
+            font-family: 'Poppins', sans-serif;
+            color: #4a3531;
+        }
+
+        .invitation-card {
+            max-width: 680px;
+            width: 100%;
+            background: #ffffff;
+            border-radius: 24px;
+            padding: 45px 35px;
+            text-align: center;
+            box-shadow: 0 20px 50px rgba(183, 110, 121, 0.18);
+            border: 2px solid #f3d5b5;
+            position: relative;
+        }
+
+        .invitation-card::before {
+            content: "";
+            position: absolute;
+            top: 12px;
+            left: 12px;
+            right: 12px;
+            bottom: 12px;
+            border: 1px solid #e6ccb2;
+            border-radius: 16px;
+            pointer-events: none;
+        }
+
+        .subtitle {
+            font-size: 0.9rem;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            color: #b56576;
+            font-weight: 600;
+            margin-bottom: 12px;
+        }
+
+        .couple-names {
+            font-family: 'Great Vibes', cursive;
+            font-size: 4.2rem;
+            color: #8c2f39;
+            line-height: 1.2;
+            margin: 10px 0;
+        }
+
+        .weds-badge {
+            display: inline-block;
+            font-family: 'Playfair Display', serif;
+            font-style: italic;
+            font-size: 1.3rem;
+            color: #b08968;
+            background: #fdf8f5;
+            padding: 4px 18px;
+            border-radius: 50px;
+            border: 1px solid #e6ccb2;
+            margin: 6px 0;
+        }
+
+        .divider {
+            width: 120px;
+            height: 2px;
+            background: linear-gradient(to right, transparent, #d4a373, transparent);
+            margin: 22px auto;
+        }
+
+        .photo-frame {
+            margin: 25px auto;
+            display: inline-block;
+            padding: 10px;
+            background: linear-gradient(145deg, #fff8f0, #f3d5b5);
+            border-radius: 18px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        }
+
+        .photo-frame img {
+            display: block;
+            width: 100%;
+            max-width: 380px;
+            height: auto;
+            border-radius: 12px;
+            object-fit: cover;
+        }
+
+        .message {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.08rem;
+            line-height: 1.85;
+            color: #5c4742;
+            margin: 20px auto;
+            max-width: 560px;
+        }
+
+        .message strong {
+            color: #8c2f39;
+        }
+
+        .closing {
+            margin-top: 25px;
+            font-size: 1rem;
+            font-weight: 600;
+            color: #9e2a2b;
+            background: #fff5f5;
+            display: inline-block;
+            padding: 12px 26px;
+            border-radius: 50px;
+            border: 1px dashed #e5989b;
+        }
+
+        @media (max-width: 500px) {
+            .invitation-card {
+                padding: 35px 20px;
+            }
+            .couple-names {
+                font-size: 3.2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="invitation-card">
+        <p class="subtitle">💐 Wedding Invitation 💍</p>
+
+        <h1 class="couple-names">
+            Pavan <br>
+            <span class="weds-badge">Weds 💕</span> <br>
+            Maha
+        </h1>
+
+        <div class="divider"></div>
+
+        <div class="photo-frame">
+            <p1>Pavan and Maha Wedding invitation </p1> 
+        </div>
+        <BR>
+     <strong> DATE : VERY SOON</strong>
+        <p class="message">
+            With immense joy and love in our hearts, we warmly invite you and your family to celebrate the beautiful union of <strong>Pavan &amp; Maha</strong>. As they begin a new journey of love, happiness, and togetherness, your presence and blessings would make their special day even more memorable. We request you to join us in sharing the laughter, joy, and unforgettable moments of this wonderful occasion. Your love, blessings, and presence are the greatest gifts we could ask for. ❤️
+        </p>
+
+        <div class="closing">
+            With love, we invite you to be a part of our celebration! 💕
+        </div>
+    </div>
+
+</body>
+</html>
